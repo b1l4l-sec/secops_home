@@ -1,0 +1,10 @@
+Place your CTFs_Enigma.png logo and other images in this directory.
+
+The logo should be named: CTFs_Enigma.png
+
+You can also add:
+- Event images
+- Member photos
+- Post images
+
+All images can be referenced in the admin dashboard when creating content.

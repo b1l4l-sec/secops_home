@@ -1,0 +1,113 @@
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Package manager caches
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn/patches/
+
+# Build output
+dist/
+build/
+out/
+.next/
+.nuxt/
+coverage/
+.tmp/
+temp/
+.cache/
+
+# Serverless / bundler artifacts
+.serverless/
+.vercel/
+.svelte-kit/
+functions/.netlify/
+
+# Logs & reports
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.orig
+*.rej
+
+# TypeScript incremental cache
+*.tsbuildinfo
+
+# Debug tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Optional: lock files (uncomment if you intentionally ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Test artifacts
+jest-html-reporters-*
+test-results/
+playwright-report/
+.playwright/
+
+# Misc build/meta
+.idea/
+*.tgz
+
+# ESLint cache
+.eslintcache
+
+# Storybook
+storybook-static/
+
+# Local SQLite / tooling data
+*.sqlite
+*.db
+
+# Generated assets
+public/build/
+public/.cache/
+
+# Node REPL history
+.node_repl_history
+
+# VSCode test workspace
+.vscode-test/
+
+# Firebase / GCP
+.firebaserc
+.firebase/
+
+# Docker
+docker-compose.override.yml
+
+# GitHub Actions temp
+.github/workflows/*.tmp

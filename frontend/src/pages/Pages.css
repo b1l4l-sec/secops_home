@@ -1,0 +1,254 @@
+.page {
+  padding: 60px 20px;
+  min-height: calc(100vh - 200px);
+}
+
+.events-section {
+  margin-bottom: 60px;
+}
+
+.events-section h2 {
+  font-size: 2rem;
+  color: var(--blue);
+  margin-bottom: 30px;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  color: var(--white);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+  color: var(--text-gray);
+  font-size: 14px;
+}
+
+.card-meta span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-meta svg {
+  color: var(--blue);
+}
+
+.card p {
+  color: var(--text-gray);
+  line-height: 1.8;
+}
+
+.past-event {
+  opacity: 0.7;
+}
+
+.class-card {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.class-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--text-gray);
+  font-size: 14px;
+}
+
+.class-info svg {
+  color: var(--blue);
+  font-size: 18px;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.member-card {
+  text-align: center;
+  padding: 40px 30px;
+}
+
+.member-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  border: 4px solid var(--blue);
+}
+
+.member-card h3 {
+  color: var(--white);
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.member-role {
+  color: var(--blue);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.member-bio {
+  color: var(--text-gray);
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.member-social {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.member-social a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--light-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--blue);
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.member-social a:hover {
+  background: var(--blue);
+  color: var(--white);
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(0, 180, 216, 0.3);
+}
+
+.class-content {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 180, 216, 0.1);
+}
+
+.class-content h4 {
+  color: var(--blue);
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.content-file {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: var(--light-gray);
+  border: 1px solid rgba(0, 180, 216, 0.2);
+  border-radius: 8px;
+  color: var(--blue);
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.content-file:hover {
+  background: var(--blue);
+  color: var(--white);
+  transform: translateY(-2px);
+}
+
+.content-links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--blue);
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.content-link:hover {
+  color: var(--light-blue);
+  transform: translateX(5px);
+}
+
+.ctf-link-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 220px;
+  background: linear-gradient(135deg, rgba(0, 180, 216, 0.1), rgba(0, 150, 199, 0.2));
+  border-radius: 8px;
+  margin-bottom: 20px;
+  color: var(--blue);
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.ctf-link-preview:hover {
+  background: linear-gradient(135deg, rgba(0, 180, 216, 0.2), rgba(0, 150, 199, 0.3));
+  transform: scale(1.02);
+}
+
+.ctf-link-preview svg {
+  font-size: 24px;
+}
+
+.no-data {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 1.2rem;
+  padding: 60px 20px;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 40px 20px;
+  }
+
+  .cards-grid,
+  .members-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .card-image {
+    height: 180px;
+  }
+
+  .member-image {
+    width: 120px;
+    height: 120px;
+  }
+}
