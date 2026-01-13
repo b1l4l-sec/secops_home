@@ -40,7 +40,7 @@ All screenshots are in the repository root and will render on GitHub. Click any 
 ### Login
 ![Login Screen](LoginScreen.png)
 
-### Home / Dashboard
+### Home
 ![Home Screen](HomeScreen.png)
 
 ### Events listing / Management
