@@ -43,13 +43,13 @@ All screenshots are in the repository root and will render on GitHub. Click any 
 ### Home
 ![Home Screen](HomeScreen.png)
 
-### Events listing / Management
+### Events listing 
 ![Events Screen](EventsScreen.png)
 
 ### Clubs management
 ![Clubs Screen](ClubsScreen.png)
 
-### Contacts / Members
+### Contacts 
 ![Contact Screen](ContactScreen.png)
 
 ### Admin console
